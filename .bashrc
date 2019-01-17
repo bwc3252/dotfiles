@@ -92,8 +92,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias what_time='cat /home/ben/Documents/Projects/soup.txt'
-alias cd-r="cd ~/Documents/Research/"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -121,8 +119,6 @@ fi
 
 # stuff that I want to run at startup
 # xinput --set-prop "ETPS/2 Elantech Touchpad" "libinput Accel Speed" 0.8
-export CLASSPATH=./:/home/ben/Documents/School/Computer_Science/Project1
-alias soup_time='cat /home/ben/Documents/Projects/soup.txt'
 
 LSCSOFT_LOCATION=${HOME}/opt/lscsoft # change this as appropriate
 export LSCSOFT_LOCATION
