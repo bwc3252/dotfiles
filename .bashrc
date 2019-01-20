@@ -58,7 +58,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[00;32m\]\u@\h\[\033[00m\]:\[\033[00;00m\] \W \[\033[00m\]\$ '
-    PS1='[\W] $ '
+    PS1='\H [\W] $ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -120,8 +120,3 @@ fi
 # stuff that I want to run at startup
 # xinput --set-prop "ETPS/2 Elantech Touchpad" "libinput Accel Speed" 0.8
 
-LSCSOFT_LOCATION=${HOME}/opt/lscsoft # change this as appropriate
-export LSCSOFT_LOCATION
-if [ -f ${LSCSOFT_LOCATION}/lscsoft-user-env.sh ] ; then
-  . ${LSCSOFT_LOCATION}/lscsoft-user-env.sh
-fi
