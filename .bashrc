@@ -83,7 +83,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# stuff that I want to run at startup
-# xinput --set-prop "ETPS/2 Elantech Touchpad" "libinput Accel Speed" 0.8
-
