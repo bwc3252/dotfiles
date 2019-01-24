@@ -65,6 +65,7 @@ set formatoptions-=t " do not automatically wrap text when typing
 :set autoindent
 :set expandtab
 :set tabstop=4
+:set shiftwidth=4
 
 execute pathogen#infect()
 
