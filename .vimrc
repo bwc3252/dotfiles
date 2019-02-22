@@ -67,7 +67,7 @@ set formatoptions-=t " do not automatically wrap text when typing
 :set tabstop=4
 :set shiftwidth=4
 
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "autocmd vimenter * NERDTree
 
