@@ -66,6 +66,7 @@ set formatoptions-=t " do not automatically wrap text when typing
 :set expandtab
 :set tabstop=4
 :set shiftwidth=4
+set pastetoggle=<F10>
 
 "execute pathogen#infect()
 
@@ -74,3 +75,10 @@ set formatoptions-=t " do not automatically wrap text when typing
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 :set number
+
+" Set the theme
+colorscheme gruvbox
+set background=dark
+
+" use system clipboard
+set clipboard=unnamedplus
