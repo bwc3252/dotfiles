@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/ben/Documents/Research/EM_PE/em_pe/integrator_utils'
-let g:netrw_dirhist_2='/home/ben/Documents/Research/Notes'
-let g:netrw_dirhist_3='/home/ben/Documents/School/Lab/Lab_Paper'
-let g:netrw_dirhist_4='/home/ben/Documents/School/Lab/Electron_Ratio'
-let g:netrw_dirhist_5='/home/ben/Documents/fossil/src/linked_list'
